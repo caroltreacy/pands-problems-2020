@@ -1,6 +1,6 @@
 # Carol Treacy
 # check if a number is prime 
-# The primes are2, 3, 5, 7, 11, 13, ...
+# The primes are 2, 3, 5, 7, 11, 13, ...
 
 
 p = 221

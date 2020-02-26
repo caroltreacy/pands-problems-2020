@@ -2,11 +2,28 @@
 # back wards, every second letter
 
 
-# s = "The quick brown fox jumps over the lazy dog."
+sentence = "The quick brown fox jumps over the lazy dog."
 
-s = ".god yzal eht revo spmuj xof nworb kciuq eht"
+# invertorder = sentence
 
-print(s[0:44:2])
+# s = ".god yzal eht revo spmuj xof nworb kciuq eht"
+
+# result = sentence[::-2]
+
+sentence2 = "the reverse of 'sentence'"
+
+print("sentence2") [0:44:2])
+
+
+
+
+
+
+
+
+
+
+
 
 
 
