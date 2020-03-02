@@ -12,16 +12,12 @@ height = float(input("height in cm"))
 
 heightsquare  = (height * height) 
 
-bmi = round(weight / heightsquare) 
+bmi = (weight / heightsquare) 
 
-# x = round('bmi';2,)
-
-
-print("your bmi is", bmi,) ('Please check you have entered whole numbers\n' 'and decimals where asked.')
+# bmi2 = ( 'bmi * 1000') 
 
 
-
-
+print("your bmi is", bmi )
 
 
 
