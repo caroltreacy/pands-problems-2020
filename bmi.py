@@ -12,12 +12,14 @@ height = float(input("height in cm"))
 
 heightsquare  = (height * height) 
 
-bmi = (weight / heightsquare) 
+bmi = round(weight / heightsquare, 6 ) 
+
+bmi2 = bmi * 10000
 
 # bmi2 = ( 'bmi * 1000') 
 
 
-print("your bmi is", bmi )
+print("your bmi is", bmi2 )
 
 
 
