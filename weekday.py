@@ -3,14 +3,18 @@
 # It is the weekend, yay!
 
 
-x = float(input(Yes, unfortunately today is a weekday))
-y = float (input(It is the weekend, yay!))
+x = float(input("Yes, unfortunately today is a weekday"))
+y = float(input("It is the weekend, yay!"))
 
 p = datetime. datetime. now ()
 
-if p = (Monday, Tuesday, Wednesday, Thursday, Friday)
-    print(X)
-else if p = (Saturday, Sunday)
+weekday = (Monday, Tuesday, Wednesday, Thursday, Friday)
+weekend = (Saturday, Sunday)
+    
+if  p = weekday 
+    print(x)
+else     
+    p = weekend
     print(Y)
 
-Print (now)   
+   

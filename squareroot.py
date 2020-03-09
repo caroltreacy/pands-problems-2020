@@ -5,10 +5,9 @@
 # please enter a postive number 14.5
 # The square root of 14.5 is approx 3.8
 
-number = float(input("positive number"))
+x = float(input("positive number to be square rooted"))
 
-x = postive number 
+y = def f(2) :
+    return y * X
 
-math.sqrt(X)
-
-print('The square root of 'X' is approximately 'Y')
+print('The square root of 'x' is approximately 'y')

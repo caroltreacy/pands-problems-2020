@@ -6,11 +6,27 @@
 
 
 p = float(input("enter positive number"))
+L = [ ]
 
-if (p == positive)
-    print (p / 2)
-else if (p == odd)
-    print ( 3 * p / 2 ) 
+# for p in range (0, 20) :
+
+    if p == 0 :
+        L = (p / 2) 
+               
+    else :
+        p != 0 :
+        L = (p * 3) + 1 
+    
+        
+print ("L")        
+
+
+        
+
+        
+
+
+
 
 
 
