@@ -10,15 +10,23 @@ L = [ ]
 
 # for p in range (0, 20) :
 
-    if p == 0 :
-        L = (p / 2) 
+    for p % 0 :
+        p = p / 2 
+    print p
+        # if p has a remainder of 0
+        # divide it by two 
+        # add it to the list 
                
-    else :
-        p != 0 :
-        L = (p * 3) + 1 
+    elif :
+        p % 1 :
+        p = (p * 3) + 1 
+    print p    
+        # if p is remainder of 1
+        # multiple by three and add one
+        # add it to the list
     
         
-print ("L")        
+print []     
 
 
         
