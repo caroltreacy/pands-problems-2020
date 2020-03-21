@@ -8,8 +8,8 @@ y = float(input("It is the weekend, yay!"))
 
 p = datetime. datetime. now ()
 
-weekday = (Monday, Tuesday, Wednesday, Thursday, Friday)
-weekend = (Saturday, Sunday)
+weekday = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+weekend = "(Saturday", "Sunday")
     
 if  p = weekday 
     print(x)
