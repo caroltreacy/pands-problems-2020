@@ -10,20 +10,18 @@ p = float(input("enter positive number"))
 
 # for p in range (0, 20) :
 
-    while (p % 0) == 0:
-        p = p / 2 
-    print p
-        # if p has a remainder of 0
-        # divide it by two 
-        # print P
+while (p % 0) == 0:
+    p = p / 2 
+    print (p)
+    # if p has a remainder of 0
+    # divide it by two 
+    # print P
                
-    elif :
-        (p % 1) != 0 :
-        p = (p * 3) + 1 
-    print p    
-        # if p is remainder of 1
-        # multiple by three and add one
-        # print p
+else (p % 1) != 0 :
+    p = (p * 3) + 1 
+    print (p)    
+    # if p is remainder of 1
+    # multiple by three and add one
     
         
 print [P]     
