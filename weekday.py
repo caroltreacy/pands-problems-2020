@@ -1,3 +1,4 @@
+# Carol Treacy
 # python weekday.py
 # Yes, unfortunately today is a weekday
 # It is the weekend, yay!
