@@ -6,7 +6,8 @@
 import math
 
 
-f = open ('https://en.wikipedia.org/wiki/Moby-Dick', 'r')
+f = open('https://en.wikipedia.org/wiki/Moby-Dick', 'r')
+
 'This is the entire file.\n'
 # This opens the file Moby-dick.
 f.read()
@@ -15,6 +16,7 @@ f.seek(e)
 # this finds the e
 f.write('e')
 #print ('e')
+print(f.read())
 
 #with open ('workfile') as f:
 #f.seek(e)
