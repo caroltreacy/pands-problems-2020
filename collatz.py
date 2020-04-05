@@ -5,26 +5,25 @@
 # Result 10 5 16 8 4 2 1 
 
 
-p = float(input("enter positive number"))
+p = float(input("enter positive number "))
 
-
-# for p in range (0, 20) :
-
-while (p % 0) == 0:
-    p = p / 2 
-    print (p)
+if (p % 2) == 0:
+    p = p / 2
+    print(p)
     # if p has a remainder of 0
     # divide it by two 
     # print P
-               
-else (p % 1) != 0 :
-    p = (p * 3) + 1 
-    print (p)    
+
+while (p % 2) != 0:
+    p = (p * 3) + 1
+    print(p)
+while (p % 2) == 0:
+    p = p / 2
+    print(p)
     # if p is remainder of 1
     # multiple by three and add one
     
-        
-print [P]     
+print(p, end= '')  #stops the program when answer is 1   
 
 
         
