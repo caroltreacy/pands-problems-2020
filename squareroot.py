@@ -6,7 +6,7 @@
 # please enter a postive number 14.5
 # The square root of 14.5 is approx 3.8
 
-positive number = float(input("positive number to be square rooted"))
+integer = float(input("positive number to be square rooted"))
 # postive number my program will request 
 
 y = def f(X) :
