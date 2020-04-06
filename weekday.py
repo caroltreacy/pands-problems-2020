@@ -12,21 +12,20 @@ import datetime
 import calendar 
 
 d = datetime. datetime. today()
-print ('Today is date:', d)    
+print ('Today is date:', d)  
+ 
+
+week_days= ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday','Saturday', 'Sunday']   
+l=list(map(int, input("Enter date \n eg: 05/05/2019 \n\n").split('/')))
+day=datetime.date(l[2],l[1],l[0]).weekday()
+print(week_days [day])
+# found this program to say what day today is by entering date
 
 
-#answer = input ( Enter Monday or Tuesday or Wednesday or Thursday or Friday or Saturday or Sunda)
-# A program that you insert a Day
-#day = {0: "Monday", 1: "Tuesday", 2: "Wednesday", 3: "Thursday", 4: "Friday", 5: "Saturday", 6: "Sunday"}
-# These are the days of the week
-
-#weekday = [0 : 4] # weekdays on the list
-#weekend = [5 : 6] # weekend on the list
-
-#if d == ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
- #   print ("Yes, unfortunately today is a weekday")
-#elif d == ['Saturday', 'Sunday'] 
- #   print ("It is the weekend, yay!") 
+#if week_days == (Monday) #, "Tuesday", "Wednesday", "Thursday", "Friday")
+ #  print ("Yes, unfortunately today is a weekday")
+#elif week_days == ["Saturday", "Sunday"] 
+ #  print ("It is the weekend, yay!") 
 # decides if the day is a weekend/weekday
 
 

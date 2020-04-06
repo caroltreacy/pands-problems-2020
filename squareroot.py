@@ -6,12 +6,11 @@
 # please enter a postive number 14.5
 # The square root of 14.5 is approx 3.8
 
-integer = float(input("positive number to be square rooted"))
+import math 
+
+number = int(input("positive number to be square rooted :" ))
 # postive number my program will request 
+sqrt = number ** 0.5 # this will get the square root
+print("The Square root is approximately:", sqrt )
 
-y = def f(X) :
-    return X * X
-    (f(2))
-# the value of 'y' is the squareroot of 'x'
-
-print('The square root of' positive number 'is approximately' y)
+# I have only worked out how to get the square root 14 	

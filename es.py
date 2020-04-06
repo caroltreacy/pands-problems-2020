@@ -3,19 +3,25 @@
 # it contains. 
 # moby-dick.text  116960
 
-import math
+#import math
 
 
-with open('https://en.wikipedia.org/wiki/Moby-Dick') as f:
+#file = open("https://en.wikipedia.org/wiki/Moby-Dick", "r")
 
-    'This is the entire file.\n':   # This opens the file Moby-dick.
-    f.read() # This reads the file
-    f.seek(e)  # this finds the letter e
-    for letter in f:
-        print(letter, e='')
-    f.write('e\n')
+#'This is the entire file.\n':   # This opens the file Moby-dick.
+#data = file.read() # This reads the file
+#f.seek(e)  # this finds the letter e
+#number_of_characters = len(data)
+    
 
+  
+Url = open ("https://en.wikipedia.org/wiki/Moby-Dick", "r")
 
+data =url.read()
+f.seek(e)
+print(value)
+      
+    
 
 
 
